@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TestPractice;
+namespace TestPractice\Test;
 
 use PHPUnit\Framework\TestCase;
 
-final class BasicTestCase extends TestCase
+final class BasicCaseTest extends TestCase
 {
     public function testCase(): void
     {
